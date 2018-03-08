@@ -8,7 +8,7 @@ h2 { font-family: "Arvo", serif; }
 
 /* RESUME */
 .testo .text { background-color: transparent; border: 1px solid #ddd; }
-
+.testor .text { background-color: transparent; border: 1px solid #ddd; }
 
 
 .content h3 span { display:inline-block; position:relative; padding: .2em 1em; letter-spacing: 1px; border: 1px dashed #ccc; }
