@@ -140,12 +140,15 @@ body, input, textarea, select, button, input[type="button"], input[type="reset"]
 .bar .progress { background: #333; }
 
 /* About text */
-h4.about-text { text-align: center; font-size: 1.4em; line-height: 160%; padding: .3em 0; }
+h4.about-text { text-align: center; font-size: 1.4em; line-height: 160%; padding: .3em 0; background-color: lightgoldenrodyellow;
+    border-radius: 0 10px 0px 10px;
+    box-shadow: 1px 1px 3px 0px black; }
 .label { display: inline-block; padding: 0 .4em; border-radius: 2px; }
 
 /* Testimonials */
 .testo-group { padding: .4em 0; }
 .testo { padding: 0.5em 0 1em 0; }
+.testor { padding: 0.5em 0 1em 0; }
 .testo img { float: left; max-width: 80px; border-radius: 50%; box-shadow: 0 1px 0 #fff inset; }
 .testor img { float: right; max-width: 80px; border-radius: 50%; box-shadow: 0 1px 0 #fff inset; }
 .testo .text { position:relative; margin-left: 114px; padding:1em 1.6em; border-left: 2px solid #555; background-color: #fff; }
@@ -153,8 +156,12 @@ h4.about-text { text-align: center; font-size: 1.4em; line-height: 160%; padding
 .testo .text:before { content:""; position:absolute; top:2em; right:100%; width: 0; height: 0; border-top: 12px solid #555; border-left: 16px solid transparent; }
 .testor .text:after { content:""; position:absolute; top:2em; left:100%; width: 0; height: 0; border-top: 12px solid #555; border-right: 16px solid transparent; }
 .testo .text h4 { margin: 0; }
+.testor .text h4 { margin: 0; }
 .testo .text h4 span { display: inline-block; margin-left: 1em; font-size: .8em; color: #888; }
+.testor .text h4 span { display: inline-block; margin-left: 1em; font-size: .8em; color: #888; }
 .testo .text p { margin: .6em 0 0.2em 0; line-height: 150%; color: #555; }
+.testor .text p { margin: .6em 0 0.2em 0; line-height: 150%; color: #555; }
+
 
 /* Services */
 .service { text-align: center; padding: .4em 0 1.6em 0; }
