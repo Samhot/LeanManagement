@@ -51,7 +51,7 @@
 		var ua = navigator.userAgent.toLowerCase();
 		var isAndroid = ua.indexOf("android") > -1;
 		var isOperaMobile = isAndroid && navigator.userAgent.indexOf("Opera")> -1;
-		safeMod = safeMod || !Modernizr.csstransforms || !Modernizr.csstransforms3d || $(window).width() < 960 || $.browser.msie || isIE11 || isAndroid || isOperaMobile;
+		safeMod = safeMod || !Modernizr.csstransforms || !Modernizr.csstransforms3d || $(window).width() < 850 || $.browser.msie || isIE11 || isAndroid || isOperaMobile;
 		if(safeMod) {
 			
 			$('html').addClass('safe-mod');	
@@ -163,7 +163,7 @@
 			// REFRESH SCROLLBARS ON RESIZE
 			$(window).resize(function() {
 				refreshScrollBars();
-				if($(window).width() < 960) {
+				if($(window).width() < 850) {
 					location.reload(true);	
 				}
 			});
